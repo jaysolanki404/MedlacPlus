@@ -1,0 +1,6 @@
+.main-content {
+  margin-left: 17em; /* Same width as the sidebar */
+  /* ... other main content styles ... */
+   position: relative;
+  z-index: 1; /* Decrease the z-index value */
+}

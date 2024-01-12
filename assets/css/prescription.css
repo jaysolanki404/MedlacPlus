@@ -1,0 +1,296 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: absolute;
+  }
+  
+  body:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  url(apple-icon.png);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    z-index: -1;
+    opacity: 0.2;
+    background-size: 1300px 800px;
+  }
+
+hr{
+    color:grey;
+    
+}
+
+.logo{
+    height:250px;
+    width:500px;
+    margin-left:0px;
+}
+
+.logo img{
+    height:200px;
+    width:400px;
+    margin-left:-100px;
+}
+
+.logo2 img{
+    height:50px;
+    width:50px;
+}
+
+.logo2{
+    border-bottom: 20px;
+}
+
+b{
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+
+.regnumdegdiv{
+    color:grey;
+    font-size: x-large;
+    font-weight:100;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.regnumdegdiv .clinicaddress{
+    margin-top: 20px;
+
+}
+
+
+.division-1{
+    display: flex;
+    column-gap: 600px;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom: -20px;
+}
+
+
+.division-2{
+    margin-top: 20px;
+    margin-left:30px;
+    display: flex;
+    column-gap:800px;
+}
+
+
+.div-2-part1{
+    font-family: sans-serif;
+}
+
+
+.div-2-part2{
+    font-family: sans-serif;
+}
+
+.div-2-date h2{
+    font-family: sans-serif;
+    color:grey;
+}
+
+.div-2-refno h2{
+    font-family: sans-serif;
+    color:grey;
+}
+
+.div-patient-column h2{
+    color:grey;
+    margin-top:30px;
+}
+
+.div-patient-column p{
+    color:rgb(75,75,79);
+    margin-bottom:30px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.div-patient-column select{
+    margin-bottom: 20px;
+    color: rgb(75,75,79);
+}
+
+.div-patient-column #input_diagnosis{
+    border-bottom: 2px solid rgb(75,75,79);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+ #adviceid{
+    border-bottom: 2px solid rgb(75,75,79);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+}
+
+.division-3{
+    margin-top: 20px;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+#medicineContainer{
+    font-weight:400;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.division-4{
+    margin-left:1150px;
+}
+
+.medicine-div label{
+    font-weight:400; 
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.signature-logo img{
+    height:200px;
+    width:300px;
+}
+
+.division-4 p{
+    color:rgb(75,75,79);
+}
+
+.division-4 #doctorname{
+    font-size: xx-large;
+    padding-right: 100px;
+}
+
+.div-disclaimer {
+    padding-top:20px;
+    margin-top:20px;
+    background-color:#FFB669;
+    margin-left:-30px;
+}
+
+.div-dis-content ol{
+    color:rgb(161, 40, 62);
+    line-height: 2;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    margin-left: 17px;
+    padding-bottom:20px;
+}
+
+.div-dis-content h3{
+    font-size: x-large;
+    color:rgb(161, 40, 62);
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+select{
+    padding:-10px 60px;
+    font-size:x-large;
+    font-family:sans-serif;
+    border:none;
+}
+
+#feeding select{
+    padding:-10px 60px;
+    font-size:x-large;
+    font-family:sans-serif;
+    border:none;
+    position:fixed with absolute;
+}
+
+ /* Common styles for both buttons */
+.prescription-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+   
+  button{
+    font-size: large;
+    font-weight: 300;
+    border-radius: 5px;
+  }
+  /* Style for Add Medicine button */
+  #addButton{
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: 2px solid #4caf50;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  #addButton:hover {
+    background-color: white;
+    color: #4caf50;
+  }
+  
+  /* Style for Remove Medicine button */
+  .remove-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: 2px solid #f44336;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: white;
+    color: #f44336;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+form{
+    line-height: 2;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+input{
+    padding:10px 30px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.signature-logo p{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.save__printprescription_buttons{
+    display:flex;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .division-2 {
+      width: 50%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
