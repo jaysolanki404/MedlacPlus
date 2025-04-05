@@ -1,0 +1,49 @@
+ Haemogram
+ Prothrombin Time (Photooptical clot detection)
+ HB Electrophoresis ( Capillary )
+ Sickling Test ( Dithionate )
+ Factor VIII Assay Activity (Photooptical Clot detection)
+ CD-3 CD-4 CD-8 Lymphocyte Count ( IPT )
+ Haemogram with ESR
+ Anti Mitochondrial Antibody ( IIF )
+ Free Protein S Assay (Immuno assay)
+ Stool Examination
+ Urine RBC morphology by Flow cytometry
+ Protein C Assay ( Chromogenic )
+ Stone Analysis ( FT-IR )
+ HLAb 27 By Flowcytometry
+ Haemogram and Malaria Parasite
+ Coombs Test Indirect (By Gel Technology)
+ Activated Partial Thromboplastin Time (Photooptical clot detection)
+ TPHA
+ NMO ( Cell based study )
+ Anti Smooth Muscle Antibody ( IIF )
+ Factor IX Assay (Photooptical Clot detection)
+ PRO-C Global
+ Factor V Leiden Activity Test
+ Anti Nuclear Antibody ( IIF )
+ Anti Neutrophilic Cytoplasmic Antibodies ( IIF )
+ Platelet Count And Indices
+ Anti ds DNA ( IIF )
+ Anti ds DNA ( IIF )
+ Haemoglobinuria
+ Occult Blood
+ Platelet Count
+ Urine For Haemosiderin Pigment
+ ESR
+ Haemoglobin
+ Malarial parasite ( smear )
+ Urine Examination -U ( Flow Cytometry )
+ Gliadin antibody IgG & IgA
+ Dengue antibody IgG & IgM-Elisa
+Desmoglein 1&3
+ Anti Intrinsic Factor Antibody (IgG)
+ Chikungunya antibody IgM
+ Dopamine
+ Dengue antibody IgM
+ Dengue Antigen NS1 Elisa
+ Dengue Antigen NS1 Elisa
+ Lyme disease antibody
+ Chlamydia Trachomatis Profile
+ issue Transglutaminase IgG
+ Blood Group & RH ( Forward and Reverse )

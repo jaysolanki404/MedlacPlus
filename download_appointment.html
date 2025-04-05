@@ -1,0 +1,122 @@
+<head>
+  <title>A4 Page Using CSS</title>
+  <link rel="stylesheet" href="C:\wamp64\www\medlacplus\assets\css\download_appointment.css">
+  <style>
+    body {
+      width: 230mm;
+      height: 100%;
+      margin: 0 auto;
+      padding: 0;
+      font-size: 12pt;
+      background: rgb(204, 204, 204);
+    }
+
+    * {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+
+    .main-page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 10mm auto;
+      background: white;
+      box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    }
+
+    .sub-page {
+      padding: 1cm;
+      height: 297mm;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+
+      html,
+      body {
+        width: 210mm;
+        height: 297mm;
+      }
+
+      .main-page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-page">
+    <div class="sub-page">
+      <img src="apollo.png" alt="apollo_img">
+      <div class="notvalidforvisa">
+        <p>
+          <center>NOT VALID FOR VISA</center>
+        </p>
+      </div>
+      <div class="appointment_details">
+        <h3 align='center'><b>Appointment Details </b></h3>
+      </div>
+      <div class="appointment_container">
+        <div class="appointment1">
+          <p><label>Appointment ID:</label> <b>10001 </b></p>
+          <p><label>Doctor Name:</label><b>Deepa Med</b> </p>
+          <p><label> Hospital:</label><b>Apollo</b></p>
+          <p><label>City:</label><b>Hyderabad</b></p>
+        </div>
+
+        <div class="appointment2">
+          <p><label>Appointment date: </label> <b>01/01/24</b></p>
+          <p><label>Prefered Time:</label><b>10:45-11:45</b> </p>
+          <p><label> Speciality:</label><b>laproscopic surgen </b></p>
+          <p><label>Country:</label><b>India</b></p>
+        </div>
+      </div>
+
+      <div class="patient_details">
+        <h3 align='center'><b>Patient Details </b></h3>
+      </div>
+      <div class="patient_container">
+        <div class="patient1">
+          <p><label>Patient Name:</label><b>Ram Krishna </b></p>
+          <p><label>Patient Phone Number:</label><b>7676767676</b></p>
+          <p><label>PNR Number:</label><b>------------</b></p>
+        </div>
+
+        <div class="patient2">
+          <p><label>EMail ID(Username):</label><b>deepamed10@gmail.com</b></p>
+          <center>UHD</center>
+        </div>
+      </div>
+      <div class="information_div">
+        <p>At the hospital, please contact the Helpdesk for assistance to meet your doctor.
+          You are requested to be present at least 15 minutes before your appointment to complete the necessary
+          processes.
+          Please bring your appointment Id of the confirmation mail while coming for
+          consultation.
+      </div>
+      <br>
+      <p>Thank you for using <span>www.medlacplus.com</span>.Wishing you good health.</p>
+      <p>Administrator</p>
+      <br>
+
+      <div class="divdisclaimer">
+        <p><b>Disclaimer:</b> Medlac system will make all efforts to honor the appointment. However, in the event of any
+          unforeseen circumstances beyond our control, the appointment may be delayed or rescheduled. A new appointment
+          date and/or time, according to the patient's convenience, and availability of slot with the same specialist,
+          or a new specialist, will be proposed.</p>
+      </div>
+    </div>
+  </div>
+</body>

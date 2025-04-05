@@ -1,0 +1,59 @@
+.main-content {
+    background-color: #ced4da;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 300px;
+    margin-bottom: 83px;
+}
+
+.debit-card {
+    position: relative;
+    background-color: #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: #fff;
+    width: 425px;
+    height: 260px;
+    background-image: url(childfront.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.debit-card:hover {
+    background-image: url(childback.jpg);
+}
+
+.card-body {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.personal-info {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
+}
+
+.debit-card:hover .personal-info {
+    opacity: 0;
+}
+
+.personal-info input {
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
